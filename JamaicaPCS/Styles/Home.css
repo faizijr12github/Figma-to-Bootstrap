@@ -1,0 +1,604 @@
+/* General css */
+
+/* poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* inter font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.heading1 {
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.line-div {
+  width: 58px;
+  background-color: #f96a1b;
+  height: 3px;
+}
+
+/* ----------home-top-banner---------- */
+
+.home-top-banner {
+  background: #f96a1b;
+  color: white;
+  padding: 10px 135px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-top-banner-icons {
+  margin: 0px 0px 0px 5px;
+}
+
+/* ----------Navbar---------- */
+.navbar {
+  padding: 12px 120px !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  color: #37383b;
+}
+
+#navbar-btn {
+  background-color: #39b4e1;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+/* ----------Section 01---------- */
+
+.sec01 {
+  background-image: url("../images/home/sec1-bg-img.png");
+  background-size: 100% 100%;
+}
+
+.s1h1spn {
+  color: #f96a1b;
+}
+
+/* .sec1-p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  width: 695px;
+} */
+
+.sec1-content {
+  padding: 57px 0px 0px 55px;
+}
+
+.sec1-btns {
+  margin-top: 50px;
+}
+
+#sec1-btn1 {
+  background-color: #39b4e1;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin-right: 15px;
+}
+
+#sec1-btn2 {
+  color: #f96a1b;
+  border-radius: 50px;
+  border: 1px solid #f96a1b;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
+.sec1-div2 {
+  background-image: url("../images/home/sec1-div2-bg.png");
+}
+
+/* ----------Section 02---------- */
+
+.sec2-h5 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #f96a1b;
+}
+
+.sec2-h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec2-txt {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+#sec2-btn {
+  background-color: #39b4e1;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
+/* ----------Section 03---------- */
+
+.sec3-h5 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #f96a1b;
+}
+
+.sec3-h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+/* ----------Section 04---------- */
+
+.sec4-sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec4-h5 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #f96a1b;
+}
+
+.sec4-h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec4-card-T {
+  font-family: Poppins;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 180px;
+  text-align: left;
+  color: #f7f9ff;
+}
+
+.card-title-sec4 {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 15px;
+  margin-right: 20px;
+}
+
+.card-txt-sec4 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec4-card {
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: 10px 20px 60px 0 #dedede;
+}
+
+.sec4-nav {
+  display: flex;
+}
+
+/* ----------Section 05---------- */
+
+.sec05 {
+  background-image: url("../images/home/sec5-bg-img.png");
+  background-size: cover;
+}
+
+.sec5-ul {
+  padding-top: 15px;
+  margin: 0px 30px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 10px 20px 60px 0 #dedede;
+}
+
+.sec5-dynamic-content {
+  background-color: white;
+  border-radius: 32px;
+  box-shadow: 10px 20px 60px 0 #dedede;
+}
+
+.sec5-h5 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #f96a1b;
+}
+
+.sec5-h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec5-h3 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec5-txt-p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec5-tab-active.active {
+  background-color: transparent !important;
+  color: #39b4e1 !important;
+  border-bottom: 4px solid #39b4e1;
+  border-radius: 0 !important;
+  font-family: Inter !important;
+}
+
+.sec5-tab-active {
+  color: black !important;
+}
+
+/* ----------Section 06---------- */
+
+.sec06 {
+  margin: 100px 0px;
+}
+
+.sec6-card-T {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.2px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec6-cardT-border {
+  margin: 15px 24px 0px 24px;
+  border-top: 1px solid #dedede;
+}
+
+/* ----------Section 07---------- */
+
+.sec7 {
+  background-image: url(../images/home/sec5-bg-img.png);
+  background-size: cover;
+  margin: 100px 0px;
+  padding-top: 100px;
+}
+
+.sec7cardh5 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec7cardp {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec7cardRmBtn {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec7cardDate {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.005em;
+  text-align: right;
+}
+
+.sec7cardFooter {
+  margin: 0px 7px 0px 0px;
+  border-top: 1px solid #dedede;
+  padding-top: 15px;
+}
+
+.sec7cards {
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: 10px 20px 60px 0 #dedede;
+}
+
+.sec7cardh5-2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30.6px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec7cardp-2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sec7cardDate-2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sec7card-body-2 {
+  padding: 7px 16px !important;
+}
+
+.sec7cards2 {
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: 10px 20px 60px 0 #dedede;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  background-color: #090f1d;
+  color: #ffffff;
+  padding: 0px !important;
+}
+
+.footer h5 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.footer p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.footer-banner {
+  background: #161e31;
+  padding: 30px;
+  margin: 0px;
+}
+
+/* ---------- Media queries ---------- */
+
+/* ---------- Media queries (1024px) ---------- */
+
+@media screen and (max-width: 1024px) {
+  .sec1-content {
+    padding: 30px 0px 0px 0px;
+  }
+  .heading1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec1-p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec1-btns {
+    margin-top: 25px;
+  }
+  .sec2-h2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 47.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec2-txt {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  #sec2-btn {
+    background-color: #39b4e1;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+  .sec3-h2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 47.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec4-h2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 47.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec5-txt-p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec7cards2 img {
+    width: 100%;
+    /* border-radius: 8px; */
+  }
+}
+
+/* ---------- Media queries (768px) ---------- */
+
+@media screen and (max-width: 769px) {
+  .home-top-banner {
+    display: none !important;
+  }
+  #sec2-btn {
+    background-color: #f96a1b;
+  }
+}
+
+/* ---------- Media queries (425px) ---------- */
+
+@media screen and (max-width: 498px){
+  .heading1 {
+    font-size: 36px;
+  }
+}
+
+/* ---------- Media queries (425px) ---------- */
+
+@media screen and (max-width: 425px) {
+  .heading1 {
+    font-size: 30px;
+  }
+  .line-div {
+    display: none;
+  }
+  .sec4-nav {
+    display: none;
+  }
+  .sec5-h2 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec7cards2 img {
+    border-radius: 8px;
+  }
+}
+
+/* ---------- Media queries (320px) ---------- */
+
+@media screen and (max-width: 320px) {
+  .heading1 {
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    font-size: 20px !important;
+  }
+  #sec1-btn2 {
+    margin-top: 15px;
+  }
+}

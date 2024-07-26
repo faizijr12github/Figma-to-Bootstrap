@@ -1,0 +1,583 @@
+/* General css */
+
+/* poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* inter font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* ----------home-top-banner---------- */
+.home-top-banner {
+  background: #39b4e1;
+  color: white;
+  padding: 10px 0px;
+}
+
+.home-top-banner-icons {
+  margin: 0px 0px 0px 5px;
+}
+
+/* ----------sec01---------- */
+.sec01 {
+  background-image: url("../images/gallery/1.\ Gallery\ Page-Hero.png");
+  background-size: cover;
+  color: white;
+  padding: 100px;
+}
+
+.sec01 h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.custom-breadcrumb ol.breadcrumb li + li:before {
+  color: white; /* Set the color of the divider */
+}
+
+/* ----------sec02---------- */
+.sec2 h2 {
+  color: #090f1d;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+.sec2 p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+/* ---------- Sec03 ---------- */
+.sec3 {
+  border: 2px solid #e8e9fa;
+  border-radius: 32px;
+}
+
+#sec3-btn {
+  background-color: #f96a1b;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin-top: 15px;
+}
+
+#sec3-btn1 {
+  background-color: #f96a1b;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+.sec3 h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec3 p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec3 h5 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec3 ul {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30.6px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+/* ---------- Sec04 ---------- */
+
+.sec4 h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec4 p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec4 h6 {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33.6px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.accordion-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border: 0;
+}
+
+.accordion-button {
+  padding: 0px;
+}
+.accordion-body {
+  padding-left: 0px;
+  border-bottom: 1px solid #39b4e1;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url("../images/keyFeatures/accordin_plus_icon.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/keyFeatures/accordin_minus_icon.png");
+}
+
+.accordin-span {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 44.8px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  width: 50px;
+  border-radius: 8px;
+  background-color: #f2f8fa;
+  color: #969fb7;
+}
+
+.accordin-span-title {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  color: #373e48;
+}
+
+.accordion-button:not(.collapsed) .accordin-span {
+  background-color: #39b4e1;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) .accordin-span-title {
+  color: #39b4e1;
+}
+
+.accordion-button:not(.collapsed) .accordion-item {
+  border: 0px;
+}
+
+/* ---------- sec-05 ---------- */
+
+.sec5 {
+  background-image: url("../images/keyFeatures/sec5-bg.png");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 22em;
+}
+
+.sec5-con {
+  position: relative;
+}
+
+.sec5-cards-sec {
+  position: absolute;
+  bottom: -39em;
+}
+
+.sec5 h2 {
+  color: #090f1d;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+.sec5 p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  color: #373e48;
+}
+
+.sec5-card {
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0px 2px 6px 0 #dedede;
+  min-height: 576px;
+}
+
+.sec5-card h5 {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec5-card p {
+  text-align: left;
+}
+
+.sec5-card-body {
+  border-top: 1px solid #cde1ea;
+}
+
+/* ---------- sec-06 ---------- */
+
+.sec6 {
+  margin-top: 24em;
+  border: 2px solid #e8e9fa;
+  border-radius: 32px;
+}
+
+.sec6-ul-h {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec6-ul p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+/* ---------- sec07 ---------- */
+
+.sec7 {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  background: #f2f8fa;
+  border-radius: 32px;
+}
+
+#sec7-btn {
+  background: #f96a1b;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
+/* ---------- sec-08 ---------- */
+
+.sec8 {
+  margin-bottom: 25px;
+}
+
+.sec8 h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.sec8 p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  background-color: #090f1d;
+  color: #ffffff;
+  padding: 0px !important;
+}
+
+.footer h5 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.footer p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.footer-banner {
+  background: #161e31;
+  padding: 30px;
+  margin: 0px;
+}
+
+/* ---------- Media Queries ---------- */
+
+/* ---------- Media queries (1024px) ---------- */
+@media screen and (max-width: 1024px) {
+  .sec5-cards-sec {
+    bottom: -47em;
+  }
+  .sec6 {
+    margin-top: 28em;
+  }
+  .footer img {
+    max-width: 210px;
+  }
+}
+
+/* ---------- Media queries (768px) ---------- */
+@media screen and (max-width: 1024px) {
+  .sec5 {
+    padding-bottom: 100px;
+  }
+  .sec5-con {
+    position: static;
+  }
+  .sec5-cards-sec {
+    position: static;
+  }
+  .sec5-card {
+    min-height: auto;
+  }
+  .sec6 {
+    margin-top: 100px;
+  }
+}
+
+/* ---------- Media queries (425px) ---------- */
+
+@media screen and (max-width: 425px) {
+  .home-top-banner {
+    display: none !important;
+  }
+  .sec01 {
+    padding: 40px 15px;
+  }
+  .sec01 h1 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 62.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .breadcrumb {
+    margin-bottom: 0px;
+  }
+  .sec2 h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+    letter-spacing: -0.005em;
+    text-align: center;
+  }
+  .sec2 p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: -0.005em;
+    text-align: center;
+  }
+  .sec3 {
+    border-radius: 24px;
+    padding: 25px !important;
+  }
+  .sec3 h2 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec3 p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  #sec3-btn1 {
+    display: block;
+  }
+  #sec3-btn {
+    display: none;
+  }
+  .sec3 h5 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec3 ul li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec4 {
+    margin-bottom: 0px !important;
+  }
+  .sec4 h2 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36.4px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec4 p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec4-img2 {
+    display: none;
+  }
+  .sec4 h6 {
+    margin-top: 0px !important;
+  }
+  .sec5 {
+    padding-top: 50px;
+  }
+  .sec5-card h5 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec5 h2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px;
+    letter-spacing: -0.005em;
+    text-align: center;
+  }
+  .sec5 p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.005em;
+    text-align: center;
+  }
+  .sec5-card-body p {
+    text-align: left !important;
+  }
+  .sec8 h2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 44.8px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec8 p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+  .sec6-ul p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: -0.005em;
+    text-align: left;
+  }
+}
